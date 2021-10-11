@@ -15,6 +15,5 @@ const Categorias = ({setCategoria}) => {
                     <button  className="btnde btn-primary" value="sports" onClick={botones}>DEPORTES</button>
             </div>
     )
-    
 }
 export default Categorias;
