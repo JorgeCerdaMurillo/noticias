@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(212, 245, 234);
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button{
+  border-radius: 15px;
+  }
+  nav {
+    background-color: rgb(123, 250, 208);
+  }
+.aaa{
+  border-radius: 100px;
+}
+.b{
+  background-color: rgb(106, 228, 250);
 }
