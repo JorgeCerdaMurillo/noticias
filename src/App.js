@@ -17,7 +17,7 @@ const App = () =>{
   }, [categoria]);
 
   const consultarNoticias = () =>{
-    let url = `https://newsapi.org/v2/top-headlines?country=mx&category=${categoria}&apiKey=d1866c1b2a6e44ef8f1b4ef376be42cb` ;
+    let url = `https://newsapi.org/v2/top-headlines?country=mx&category=${categoria}&pageSize=50&apiKey=d1866c1b2a6e44ef8f1b4ef376be42cb&limit=20` ;
     fetch(url).then(res => {
       return res.json();
     }).then(noticias => {
